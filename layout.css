@@ -1,0 +1,423 @@
+@media only screen and (min-width: 950px){
+    
+    body{
+        margin: 10px 15% 0px 15%;
+        width: 75%;
+    }
+    
+    header{
+        display: flex;
+    }
+    #morganDeanneLogo{
+        font-size: 30px; 
+        width: 50%;
+        padding: 10px;
+        margin: 0px;
+    }
+    nav{
+        font-size: 25px;
+        width: 50%;
+        display: flex;
+        flex-direction:row;
+        justify-content: flex-end;
+    }
+    .navbarLinks{
+        margin: 5px;
+        padding: 10px;
+    }
+
+    #aboutmeSummaryTop {
+        
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px 0px 0px;
+    }
+    #aboutmeText{
+        width: 450px;
+        margin: 30px 30px 30px 30px;
+    }
+    #aboutmeImage{
+        object-fit: cover;
+        height: 300px;
+        width: 300px;
+        align-self: center;
+    }
+    #aboutmeSocials{
+        display: flex;
+        justify-content: center;
+    }
+    .shareDoodle{
+        height: 70px;
+    }
+    .socialCard{
+        display: flex;
+        width: 300px;
+        color: #fff;
+        margin: 0px 30px 0px 30px;
+    }
+    .socialCard a{
+        display: flex;
+        width: 300px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .socialImage{
+        height: 50px;
+        padding: 13px
+    }
+    #socialCardText{
+        margin: 20px 0px 0px 0px;
+    }
+    #socialCardTitle{
+        margin: 0;
+    }
+    #socialCardTag{
+        margin: 0;
+    }
+    
+    #homeSummary{
+        
+    }
+    #homeSummaryTop{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px 0px 0px;
+    }
+    #homeSummaryBot{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px 0px 0px;
+        
+    }
+    #imageHomeSummary{
+        object-fit: cover;
+        height: 300px;
+        width: 300px;
+    }
+    #doodleAndTextHomeSummary{
+        margin: 40px 0px 0px 20px ;
+    }
+    #doodleHomeSummary {
+        width: 100px;
+        height: 90px;
+    }
+    #textHomeSummary{
+        padding: 0px;
+        width: 500px;
+    }
+    #doodleDivider{
+        width: 500px;
+        justify-self: center;
+    }
+    
+    #workCards{
+        margin: 30px 0px 0px 0px ;
+    }
+    #workCardsTop{
+        margin: 30px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+    #workCardsBot{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px 0px 0px;
+    }
+    .workCardWithSparkle{
+        display: flex;
+        width: 500px;
+        margin: 0px 0px 30px 0px;
+    }
+    .sparkle{
+        opacity: 0;
+        height: 90px;
+        margin: 0px 10px 0px 10px ;
+    }
+    #sparkle-right{
+        align-self: flex-end;
+    }
+    .workCard{
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+    .workCardImage{
+        display: block;
+        height: 300px;
+        margin: 0px 0px 0px 70px ;
+    }
+    #monitorMockup{
+        margin: 0px 0px 0px 0px ;
+        object-fit: cover;
+        width: 300px;
+    }
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 20;
+        opacity: 90%;
+        overflow: hidden;
+        width: 300px;
+        height: 0;
+        transition: .3s ease;
+    }
+    .workCardWithSparkle:hover .sparkle {
+        opacity: 1;
+        
+    }
+    .workCard:hover .overlay {
+        height: 300px;
+    }
+    .workCardText {
+        font-size: 20px;
+        position: absolute;
+        top: 130px;
+        left: 130px;
+        width: 250px;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+    .indivWorkTop{
+        display: flex;
+        justify-content: center;
+        border-bottom: solid 5px;
+        padding: 0px 0px 0px 0px;
+        margin: 30px 0px 30px 0px;
+        padding: 0px 0px 30px 0px;
+    }
+    #indivWorksImageMonitor{
+        height: 250px; 
+        margin: 52px 30px 0px 0px;
+    }
+    .indivWorkBot{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
+    }
+    .indivWorksDesc{
+        width: 500px;
+    }
+    #indivWorksImage{
+        width: 200px;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 30px 0px 30px;
+    }
+    .indivWorkSection{
+        display: flex;
+        justify-content: center;
+        padding: 0px 0px 0px 0px;
+        margin: 30px 0px 0px 0px;
+    }
+    .indivWorkSection p{
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .indivWorkText{
+        width: 340px;
+        margin: 30px 30px 30px 30px;
+        
+    }
+    .indivWorkText p {
+        margin: 10px 0px 0px 0px;
+    }
+    #indivWorkText2{
+        width: 340px;
+        margin: 30px 30px 30px 30px;
+        align-self: center;
+        
+    }
+    #IndivWorkArrow1{
+        height: 50px;
+        padding: 0px 0px 0px 0px;
+        margin: 10px 0px 0px 270px;
+    }
+    #indivWorkArrow2 {
+        width: 50px;
+        margin: 0px 0px 10px 270px;
+    }
+    #IndivWorkSparkle1{
+        height: 50px;
+        align-self: center;
+    }
+    #VGSImage1{
+        width: 350px;
+        height: 250px;
+    }
+    #VGSImage2{
+        width: 300px;
+        height: 200px;
+    }
+    #VGSImage3{
+        width: 300px;
+        height: 250px;
+        align-self: center;
+    }
+    #LBPImage1{
+        width: 400px;
+    }
+    #LBPImage2{
+        
+    }
+    #LBPImage3{
+        height: 600px;
+    }
+    #PortfolioImage1{
+        align-self: center;
+        height: 400px ;
+    }
+    #PortfolioImage2{
+        align-self: center;
+        height: 300px;
+    }
+    #PortfolioImage3{
+        align-self: center;
+        height: 300px;
+    }
+    
+}
+
+@media only screen and (max-width: 950px){
+    body{
+        margin: 10px 10px 0px 50px;
+        width: 75%;
+    }
+    
+    header{
+        display: flex;
+    }
+    #morganDeanneLogo{
+        font-size: 25px; 
+        width: 50%;
+        padding: 10px;
+        margin: 0px;
+    }
+    nav{
+        font-size: 20px;
+        width: 50%;
+        display: flex;
+        flex-direction:row;
+        justify-content: flex-end;
+    }
+    .navbarLinks{
+        margin: 2px;
+        padding: 8px;
+    }
+
+    #homeSummary{
+        
+    }
+    #homeSummaryTop{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 30px 0px 0px 0px;
+    }
+    #homeSummaryTop h1{
+        
+        font-size: 30px;
+    }
+    #homeSummaryBot{
+        display: flex;
+        justify-content: center;
+        margin: 30px 0px 0px 0px;
+        
+    }
+    #imageHomeSummary{
+        object-fit: cover;
+        height: 300px;
+        width: 300px;
+    }
+    #doodleAndTextHomeSummary{
+        margin: 40px 0px 0px 20px ;
+    }
+    #doodleHomeSummary {
+        width: 0;
+        height: 0;
+    }
+    #textHomeSummary{
+        padding: 0px;
+        width: 500px;
+    }
+    #doodleDivider{
+        width: 500px;
+        justify-self: center;
+    }
+    
+    #workCards h2{
+        font-size: 25px;
+        margin: 30px 0px 30px 0px ;
+    }
+    #workCards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+    }
+    #workCardsTop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .workCardWithSparkle{
+        display: flex;
+        justify-content: center;
+        width: 500px;
+        margin: 0px 0px 30px 0px;
+    }
+    .sparkle{
+        opacity: 0;
+        height: 90px;
+        margin: 0px 10px 0px 10px ;
+    }
+    #sparkle-right{
+        align-self: flex-end;
+    }
+    .workCard{
+        position: relative;
+        width: 300px;
+        height: 300px;
+    }
+    .workCardImage{
+        display: block;
+        height: 300px;
+        margin: 0px 0px 0px 70px ;
+    }
+    #monitorMockup{
+        margin: 0px 0px 0px 0px ;
+        object-fit: cover;
+        width: 300px;
+    }
+    .overlay {
+        position: absolute;
+        bottom: 0;
+        left: 20;
+        opacity: 90%;
+        overflow: hidden;
+        width: 300px;
+        height: 0;
+        transition: .3s ease;
+    }
+    .workCardWithSparkle:hover .sparkle {
+        opacity: 1;
+        
+    }
+    .workCard:hover .overlay {
+        height: 300px;
+    }
+    .workCardText {
+        font-size: 20px;
+        position: absolute;
+        top: 130px;
+        left: 130px;
+        width: 250px;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    
+}

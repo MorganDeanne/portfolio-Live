@@ -1,0 +1,125 @@
+/* COLOUR PALLETTE */
+/* Blush Pink: D7BCC8 */
+/* Light Pink: F3D9DC */
+/* Teddy Brown: AB9598 */
+/* Rosy Red: C78283 */
+/* Purple: 545775 */
+/* Black-ish: 1A1423 */
+/* Pastel Purple: 8B8EAF */
+
+/*FONTS*/
+@font-face {
+    font-family: Myanmar-Khyay;
+    src: url(fonts/Myanmar-Khyay.ttf.woff);
+}
+@font-face {
+    font-family: Handwriting;
+    src: url(fonts/Myfont1-Regular.ttf);
+}
+
+/* BODY STYLES */
+
+body{
+    font-family: Myanmar-Khyay;
+}
+
+/* HEADINGS STYLES */
+
+h1{
+    font-family: Handwriting;
+    color: #1A1423;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    color: #1A1423;
+    font-size: 35px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+#subtext{
+    margin: 0;
+    padding: 0;
+    color: #807F7F;
+}
+p{
+}
+
+/* NAVIGATION STYLES */
+
+nav a{
+    text-decoration: none;
+    color: #1A1423;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #D7BCC8;
+}
+nav a:active{
+    text-decoration: none;
+    color: #D7BCC8;
+}
+
+/* RECENT WORKS STYLES */
+.homeRecentProject{
+}
+
+#socialCardRed{
+        background-color: #8D3F42;
+    }
+#socialCardPurple{
+        background-color: #545775;
+    }
+
+#workCardPink{
+    border: solid 5px #D7BCC8;
+}
+#workCardRed{
+    border: solid 5px #C78283;
+}
+#workCardPurple{
+    border: solid 5px #545775;
+}
+#overlay-pink{
+    background-color: #D7BCC8;
+}
+.overlay a{
+    color: #1A1423;
+    text-decoration: none;
+    
+}
+#overlay-red{
+    background-color: #C78283;
+}
+#overlay-purple{
+    background-color: #8B8EAF;
+}
+#overlay-pink a:hover {
+    color: #C78283;
+    text-decoration: none;
+}
+#overlay-red a:hover {
+    color: #545775;
+    text-decoration: none;
+}
+#overlay-purple a:hover {
+    color: #D7BCC8;
+    text-decoration: none;
+}
+
+#indivWorkTopPink{
+        border-color: #D7BCC8;
+        
+    }
+#indivWorkTopRed{
+        border-color: #C78283;
+        
+    }
+#indivWorkTopPurple{
+        border-color: #8B8EAF;
+        
+    }
+
