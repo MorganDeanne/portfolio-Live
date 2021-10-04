@@ -144,6 +144,7 @@
         height: 300px;
     }
     .workCardImage{
+        object-fit:cover;
         display: block;
         height: 300px;
         margin: 0px 0px 0px 70px ;
